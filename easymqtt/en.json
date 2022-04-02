@@ -369,21 +369,6 @@
     "changelogItems": [
         {
             "id": 0,
-            "version": "Version 1.8.2",
-            "date": "2 April 2022",
-            "notes": [
-                {
-                    "id": 0,
-                    "releaseNote": "Fixing a bug where random data showed up in the app"
-                },
-                {
-                    "id": 1,
-                    "releaseNote": "Fixing a handful of crashes and other small issues"
-                }
-            ]
-        },
-        {
-            "id": 1,
             "version": "Version 1.8.0",
             "date": "8 February 2022",
             "notes": [
@@ -410,6 +395,21 @@
                 {
                     "id": 5,
                     "releaseNote": "Fixing an issue with the number format for widgets and shortcuts"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "version": "Version 1.8.2",
+            "date": "2 April 2022",
+            "notes": [
+                {
+                    "id": 0,
+                    "releaseNote": "Fixing a bug where random data showed up in the app"
+                },
+                {
+                    "id": 1,
+                    "releaseNote": "Fixing a handful of crashes and other small issues"
                 }
             ]
         }
