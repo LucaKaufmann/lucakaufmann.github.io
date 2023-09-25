@@ -372,6 +372,37 @@
     "changelogItems": [
         {
             "id": 0,
+            "version": "Version 1.13.0",
+            "date": "19 September 2023",
+            "notes": [
+                {
+                    "id": 0,
+                    "releaseNote": "Adding new app logs section to help with debugging mqtt errors, shortcuts and widgets"
+                },
+                {
+                    "id": 1,
+                    "releaseNote": "Adding clear all button to graph datapoints"
+                },
+                {
+                    "id": 2,
+                    "releaseNote": "Adding last updated to the widget view"
+                },
+                {
+                    "id": 3,
+                    "releaseNote": "Adding brand new support section"
+                },
+                {
+                    "id": 4,
+                    "releaseNote": "Fixing an issue with TLS brokers"
+                },
+                {
+                    "id": 5,
+                    "releaseNote": "Fixing an issue with the number format for widgets and shortcuts"
+                }
+            ]
+        },
+        {
+            "id": 1,
             "version": "Version 1.8.0",
             "date": "8 February 2022",
             "notes": [
@@ -402,7 +433,7 @@
             ]
         },
         {
-            "id": 1,
+            "id": 2,
             "version": "Version 1.8.2",
             "date": "2 April 2022",
             "notes": [
