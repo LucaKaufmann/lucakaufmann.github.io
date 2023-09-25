@@ -377,27 +377,23 @@
             "notes": [
                 {
                     "id": 0,
-                    "releaseNote": "Adding new app logs section to help with debugging mqtt errors, shortcuts and widgets"
+                    "releaseNote": "Raising minimum iOS version to iOS 16"
                 },
                 {
                     "id": 1,
-                    "releaseNote": "Adding clear all button to graph datapoints"
+                    "releaseNote": "Tweaks and improvements to support iOS 17"
                 },
                 {
                     "id": 2,
-                    "releaseNote": "Adding last updated to the widget view"
+                    "releaseNote": "Adding support for standby widgets"
                 },
                 {
                     "id": 3,
-                    "releaseNote": "Adding brand new support section"
+                    "releaseNote": "Moving to AppIntents"
                 },
                 {
                     "id": 4,
-                    "releaseNote": "Fixing an issue with TLS brokers"
-                },
-                {
-                    "id": 5,
-                    "releaseNote": "Fixing an issue with the number format for widgets and shortcuts"
+                    "releaseNote": "Under-the-hood improvements, refactoring app to new architecture"
                 }
             ]
         },
