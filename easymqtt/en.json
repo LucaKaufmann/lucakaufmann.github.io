@@ -3,9 +3,9 @@
         "id": 1,
         "version": "1.13.0",
         "title": "Standby, AppIntents, iOS17",
-        "description": "- Minimum iOS version requirement raised to iOS 16.
-        - Shortcut actions converted to App Intents for enhanced interaction.
-        - EasyMQTT widgets now supported in iOS 17's new \"standby\" mode.
+        "description": "- Minimum iOS version requirement raised to iOS 16.\n
+        - Shortcut actions converted to App Intents for enhanced interaction.\n
+        - EasyMQTT widgets now supported in iOS 17's new \"standby\" mode.\n
         - Under-the-hood architecture change to improve reliability and testability, with UI/UX enhancements."
     },
     "headerItems": [{
