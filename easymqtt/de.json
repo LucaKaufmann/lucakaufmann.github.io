@@ -221,21 +221,21 @@
                         {
                             "id": 0,
                             "title": "MQTT widget",
-                            "subtitle": "This widget fetches and displays an MQTT message. It can either display the whole message, or just one specific value by setting the property path. JSON payloads will be highlighted.",
+                            "subtitle": "Dieses Widget zeigt dir eine Nachricht von einem topic an. JSON wird korrekt formatiert angezeigt.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/widgets/mqtt_widget_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/widgets/mqtt_widget_dark.jpg"
                         },
                         {
                             "id": 1,
                             "title": "Graph widget",
-                            "subtitle": "This widget displays a graph of a value from MQTT messages over time. Using the property path you can pick out a specific value from a sensor, for example the temperature or voltage.",
+                            "subtitle": "Mit diesem Widget erstellt dir die App ein Diagramm von einem topic (zB. Temperatur sensor). Nur ein topic kann angezeigt werden pro widget.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/widgets/graph_widget_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/widgets/graph_widget_dark.jpg"
                         },
                         {
                             "id": 2,
                             "title": "Multi-graph widget",
-                            "subtitle": "Multi-graph widgets are customizable widgets that can display graphs from multiple topics. They are created and customized in the app and can then be used on the home screen. They feature live updates and customization options like graph color, update interval and more. Multi-graph widgets are part of EasyMQTT Plus.",
+                            "subtitle": "Multi-graph widgets können frei konfiguriert werden, ein widget unterstützt mehrere Datenquellen (topics, topics von anderen Brokers). Diese widgets werden in der App erstellt und können dann auf dem home screen angezeigt werden.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/widgets/multi_graph_widget_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/widgets/multi_graph_widget_dark.jpg"
                         }
@@ -252,23 +252,18 @@
             "items": [
                 {
                     "id": 0,
-                    "title": "The app won’t connect to my broker",
-                    "text": "First, try a public broker and see whether the app is able to connect to that (for example broker.emqx.io). If that connection works, check whether the connection details you entered for your own broker are correct. If everything looks good, get in touch!"
+                    "title": "Die app verbindet sich nicht mit meinem Broker",
+                    "text": "Überprüfe zuerst ob ein öffentlicher Broker (zB. broker.emqx.io funktioniert). Falls diese Verbindung klappt, überprüfe die Angaben für deinen eigenen broker."
                 },
                 {
                     "id": 1,
-                    "title": "Where can I find MQTT error and status messages?",
-                    "text": "If you go to the **Settings** tab, there's a section for **App logs**. This is where EasyMQTT stores things like error messages from connecting to brokers or status messages from widgets and shortcuts running in the background."
+                    "title": "Wo kann ich MQTT Fehler und andere Meldungen finden>",
+                    "text": "Im **Einstellungen** tab findest du die App logs, dort werden alle Fehlermeldungen aufgelistet. Auch widgets und Shortcuts Fehler werden dort angezeigt."
                 },
                 {
                     "id": 2,
-                    "title": "What's the Client ID used for?",
-                    "text": "The client ID is used for the broker to identify the connecting client. Most brokers only allow one client with the same ID and will disconnect any other clients with the same ID. To get around that, in the **Settings** tab there's a way to set a **Device ID** which is used to uniquely identify your device."
-                },
-                {
-                    "id": 3,
-                    "title": "I have some ideas/requests for new features, where can I submit those?",
-                    "text": "Feature requests can be discussed on the [Discord server](https://discord.gg/QYwjYEKFCp) or [via email](mailto:contact@easymqtt.app). Scroll down to the Contact section 👇"
+                    "title": "Wofür ist die Client ID?",
+                    "text": "Der Broker braucht die Client ID um verschiedene clients zu identifizieren. Zwei Geräte mit derselben ID können zu Problemen führen. Um dies zu verhindern kannst du in den Einstellungen eine separate Device ID setzen."
                 },
             ]
         },
@@ -279,28 +274,28 @@
             "items": [
                 {
                     "id": 0,
-                    "title": "How do I configure Shortcuts?",
-                    "text": "You can create Shortcuts either directly from the app using the **Add to Siri** button, or what I would recommend using the Shortcuts app. Press the + button and search for **EasyMQTT**."
+                    "title": "Wo werden Shortcuts konfiguriert?",
+                    "text": "Shortcuts werden in der Shortcuts app erstellt. Dort bekommst du Zugriff auf die verschiedenen Shortcut aktionen von EasyMQTT"
                 },
                 {
                     "id": 1,
-                    "title": "Why can't I see any options for brokers?",
-                    "text": "To see your brokers when setting up a Shortcut you first need to create it in the app. Go either to the **Connect** tab or the **Settings** tab to create your broker, hit save and you should be good to go!"
+                    "title": "Wieso werden keine Broker angezeigt?",
+                    "text": "Broker müssen zuerst in der App gespeichert werden damit sie dann in den Shortcuts verfügbar werden. Dies kannst du unter Einstellungen > Broker tun."
                 },
                 {
                     "id": 2,
-                    "title": "Is it possible to trigger shortcuts from received MQTT messages?",
-                    "text": "Unfortunately due to some Shortcuts and background update limitations, triggering Shortcuts is not yet possible."
+                    "title": "Ist es möglich Shortcuts mit MQTT Nachrichten auszulösen?",
+                    "text": "Leider ist das bisher nicht möglich."
                 },
                 {
                     "id": 3,
-                    "title": "Can I send JSON payloads?",
-                    "text": "Yes! Due to the way the Shortcuts app works, the payload has to be entered as text but sending a JSON payload as text should work perfectly fine. For complex payloads I'd recommend using a text editor and then copy the final text over to the shortcut."
+                    "title": "Kann ich JSON payloads senden?",
+                    "text": "Ja! In der Shortcuts app muss dies als normaler Text angegeben werden, aber in der Nachricht wird das als korrektes JSON gesendet."
                 },
                 {
                     "id": 4,
-                    "title": "Why does my Fetch shortcut not receive anything?",
-                    "text": "Shortcuts have a limited amount of time they're allowed to run, so the Fetch Shortcut currently listens for a new message for up to 10 seconds before completing. Due to that, I'd recommend using that Shortcut with a topic that contains a **retained** message to make things more reliable."
+                    "title": "Wieso empfängt mein Shortcut keine Nachrichten?",
+                    "text": "Shortcuts dürfen nur für eine gewisse Zeit im Hintergrund laufen, falls die App nach ein paar Sekunden immer noch keine Nachricht bekommt wird eine Fehlermeldung angezeigt. Für das beste Resultat sollten Nachrichten auf diesem topic als Retained gesendet werden, das heisst dass der Broker automatisch die letzte Nachricht wiederholt wenn der Shortcut gestartet wird."
                 }
             ]
         },
@@ -311,23 +306,23 @@
             "items": [
                 {
                     "id": 0,
-                    "title": "How do widgets work?",
-                    "text": "Widgets receive data over a configured MQTT topic and display the received messages. Graph and Multi-graph widgets let you draw a graph of values over time, for example from messages received form a sensor."
+                    "title": "Wie funktionieren Widgets?",
+                    "text": "Widgets empfangen Nachrichten von MQTT topics und stellen diese dar. Graph und Multi-graph widgets sammeln Datenpunkte und zeichnen Diagramme auf. Dies kann eine Weile dauern bis genügend Daten vorhanden sind."
                 },
                 {
                     "id": 1,
-                    "title": "What's the difference between Graph and Multi-graph widgets?",
-                    "text": "Graph widgets are available to anyone and can be configured on the home screen. Multi-graph widgets are included with EasyMQTT Plus, they support multiple graphs, live updates and can be configured in the app. Additionally, they can also be added to the home screen."
+                    "title": "Was ist der Unterschied zwischen Graph und Multi-graph widgets?",
+                    "text": "Graph widgets werden direkt auf dem Home screen konfiguriert. Es kann nur ein topic angegeben werden und es wird nur ein Diagramm angezeigt. Multi graph widgets werden in der app erstellt und können frei konfiguriert werden. Es können verschiedene Datenquellen kombiniert werden, zB. von verschieden topics oder sogar verschiedenen Broker. "
                 },
                 {
                     "id": 2,
-                    "title": "Why is my widget not updating/receiving data?",
-                    "text": "Due to background refresh limitations, widgets only get about 10 seconds to receive new messages. It's recommended to use **retained** messages to make updating widgets more reliable. Graph and multi graph widgets need a topic that contains a number value in order to work."
+                    "title": "Wieso empfängt mein Widget keine Nachrichten>+?",
+                    "text": "Widgets dürfen nur für eine gewisse Zeit im Hintergrund laufen, falls die App nach ein paar Sekunden immer noch keine Nachricht bekommt wird eine Fehlermeldung angezeigt. Für das beste Resultat sollten Nachrichten auf diesem topic als Retained gesendet werden, das heisst dass der Broker automatisch die letzte Nachricht wiederholt wenn das Widget aktualisiert wird."
                 },
                 {
                     "id": 3,
-                    "title": "What's the property path?",
-                    "text": "The property path is how you tell your widget what exact value you want to display. Setting the property path to **payload** will display the whole message, setting it to **payload.temperature** will use only the temperature property (if available). Arrays are also supported and can be used in the following way: **payload.thermostats.[0].value**"
+                    "title": "Was ist der Eigenschaftspfad?",
+                    "text": "Mit dem Eigenschaftspfad legst du fest welchen Wert du im Widget angezeigt haben möchtest. Mit **payload** wird die ganze Nachricht angezeigt, mit zB. **payload.temperature** wird nur die Temperature Eigenschaft angezeigt. Arrays werden auch unterstützt: **payload.thermostats.[0].value**"
                 },
                 {
                     "id": 4,
