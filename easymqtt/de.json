@@ -326,8 +326,8 @@
                 },
                 {
                     "id": 4,
-                    "title": "How can I enable live updates of Multi-graph widgets?",
-                    "text": "To update Multi-graph widgets live you need to be subscribed to the topics used in the widget. Once you subscribe you should see the widget update when new values come in. If that doesn't work, try disconnecting and re-connecting to the broker."
+                    "title": "Wie kann ich live updates aktivieren?",
+                    "text": "Multi graph widgets haben eine Live update option welche aktiviert werden kann. Sobald die App geöffnet wird, werden im Hintergrund direkt die topics des Widgets abonniert und Werte werden live angezeigt."
                 }
             ]
         }
@@ -362,33 +362,6 @@
         },
     ],
     "changelogItems": [
-        {
-            "id": 0,
-            "version": "Version 1.13.0",
-            "date": "19 September 2023",
-            "notes": [
-                {
-                    "id": 0,
-                    "releaseNote": "Raising minimum iOS version to iOS 16"
-                },
-                {
-                    "id": 1,
-                    "releaseNote": "Tweaks and improvements to support iOS 17"
-                },
-                {
-                    "id": 2,
-                    "releaseNote": "Adding support for standby widgets"
-                },
-                {
-                    "id": 3,
-                    "releaseNote": "Moving to AppIntents"
-                },
-                {
-                    "id": 4,
-                    "releaseNote": "Under-the-hood improvements, refactoring app to new architecture"
-                }
-            ]
-        },
         {
             "id": 1,
             "version": "Version 1.8.0",
@@ -434,7 +407,34 @@
                     "releaseNote": "Fixing a handful of crashes and other small issues"
                 }
             ]
-        }
+        },
+        {
+            "id": 3,
+            "version": "Version 1.13.0",
+            "date": "19 September 2023",
+            "notes": [
+                {
+                    "id": 0,
+                    "releaseNote": "Raising minimum iOS version to iOS 16"
+                },
+                {
+                    "id": 1,
+                    "releaseNote": "Tweaks and improvements to support iOS 17"
+                },
+                {
+                    "id": 2,
+                    "releaseNote": "Adding support for standby widgets"
+                },
+                {
+                    "id": 3,
+                    "releaseNote": "Moving to AppIntents"
+                },
+                {
+                    "id": 4,
+                    "releaseNote": "Under-the-hood improvements, refactoring app to new architecture"
+                }
+            ]
+        },
     ]
     
 }
