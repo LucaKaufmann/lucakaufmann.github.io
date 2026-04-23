@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Graphing Zigbee2MQTT sensors with widgets",
+    "category": "Tutorial",
+    "summary": "Turn your z2m temperature and humidity readings into live sparklines on the Home Screen in five minutes.",
+    "date": "2026-04",
+    "file": "articles/zigbee2mqtt-widgets.md"
+  },
+  {
+    "title": "Home Assistant + EasyMQTT: a quick start",
+    "category": "Guide",
+    "summary": "Point EasyMQTT at your HA broker, subscribe to statestream, and fire off Siri commands that toggle scenes.",
+    "date": "2026-03",
+    "file": "articles/home-assistant-quickstart.md"
+  }
+]
