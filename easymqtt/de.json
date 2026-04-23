@@ -13,7 +13,7 @@
         "supportPages": [{
             "id": 0,
             "title": "Verbinden mit Brokers",
-            "subtitle": "Verbinde zu jedem MQTT Broker, öffentlich oder privat, verschlüsselt oder username/passwort geschützt. ",
+            "subtitle": "Verbinde dich mit öffentlichen oder privaten MQTT Brokern mit MQTT 3.1.1 oder 5.0, WebSockets, TLS/SSL und Benutzername/Passwort.",
             "imageURL": "https://lucakaufmann.github.io/easymqtt/welcome.png",
             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/welcome.png"
         },
@@ -41,7 +41,7 @@
             {
                 "id": 4,
                 "title": "Erstelle Siri Shortcuts",
-                "subtitle": "Sende und empfange Nachrichten über Shortcuts, erstelle automationen und workflows mit MQTT.",
+                "subtitle": "Sende Nachrichten, sende Favoriten und hole MQTT Zustände direkt in Shortcuts und Automationen.",
                 "imageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts.png",
                 "darkImageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts.png"
             }
@@ -104,7 +104,7 @@
                     "supportPages": [{
                         "id": 0,
                         "title": "Verbinden mit Brokers",
-                        "subtitle": "Verbinde zu jedem MQTT Broker, öffentlich oder privat, verschlüsselt oder username/passwort geschützt. ",
+                        "subtitle": "Verbinde dich mit öffentlichen oder privaten MQTT Brokern mit MQTT 3.1.1 oder 5.0, WebSockets, TLS/SSL und Benutzername/Passwort.",
                         "imageURL": "https://lucakaufmann.github.io/easymqtt/welcome.png",
                         "darkImageURL": "https://lucakaufmann.github.io/easymqtt/welcome.png"
                     },
@@ -132,7 +132,7 @@
                         {
                             "id": 4,
                             "title": "Erstelle Siri Shortcuts",
-                            "subtitle": "Sende und empfange Nachrichten über Shortcuts, erstelle automationen und workflows mit MQTT.",
+                            "subtitle": "Sende Nachrichten, sende Favoriten und hole MQTT Zustände direkt in Shortcuts und Automationen.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts.png",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts.png"
                         }
@@ -191,21 +191,21 @@
                         {
                             "id": 0,
                             "title": "Sende Nachricht",
-                            "subtitle": "Mit diesem Shortcut kannst du direkt eine payload an einen broker senden.",
+                            "subtitle": "Mit diesem Shortcut kannst du direkt eine Nachricht an einen ausgewählten MQTT Broker senden. JSON funktioniert ebenfalls als Text.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts/send_message_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts/send_message_dark.jpg"
                         },
                         {
                             "id": 1,
                             "title": "Sende gespeicherte Nachricht",
-                            "subtitle": "Mit diesem Shortcut kannst du eine in der App gespeicherte Nachricht an einen Broker senden.",
+                            "subtitle": "Mit diesem Shortcut kannst du eine in der App gespeicherte Favoriten-Nachricht an einen Broker senden.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts/send_favorite_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts/send_favorite_dark.jpg"
                         },
                         {
                             "id": 2,
                             "title": "Empfange Nachricht",
-                            "subtitle": "Dieser Shortcut empfängt eine Nachricht auf einem MQTT topic. Dies sollte eine retained Nachricht sein damit die App diese jederzeit empfangen kann.",
+                            "subtitle": "Dieser Shortcut liest einen Wert von einem MQTT Topic. Mit Retained Nachrichten funktioniert das am zuverlässigsten, weil nur ein kurzes Zeitfenster zur Verfügung steht.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts/fetch_message_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts/fetch_message_dark.jpg"
                         }
@@ -221,21 +221,21 @@
                         {
                             "id": 0,
                             "title": "MQTT widget",
-                            "subtitle": "Dieses Widget zeigt dir eine Nachricht von einem topic an. JSON wird korrekt formatiert angezeigt.",
+                            "subtitle": "Dieses Widget zeigt dir eine MQTT Nachricht an. Es kann die komplette Payload oder einen einzelnen Wert über den Eigenschaftspfad darstellen.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/widgets/mqtt_widget_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/widgets/mqtt_widget_dark.jpg"
                         },
                         {
                             "id": 1,
                             "title": "Graph widget",
-                            "subtitle": "Mit diesem Widget erstellt dir die App ein Diagramm von einem topic (zB. Temperatur sensor). Nur ein topic kann angezeigt werden pro widget.",
+                            "subtitle": "Dieses Widget zeichnet einen numerischen MQTT Wert über die Zeit auf, zum Beispiel Temperatur, Luftfeuchtigkeit, Spannung oder Leistung.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/widgets/graph_widget_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/widgets/graph_widget_dark.jpg"
                         },
                         {
                             "id": 2,
                             "title": "Multi-graph widget",
-                            "subtitle": "Multi-graph widgets können frei konfiguriert werden, ein widget unterstützt mehrere Datenquellen (topics, topics von anderen Brokers). Diese widgets werden in der App erstellt und können dann auf dem home screen angezeigt werden.",
+                            "subtitle": "Multi-graph Widgets kombinieren mehrere MQTT Diagramme in einem Widget. Sie werden in der App erstellt, können verschiedene Topics und Broker nutzen und sind Teil von EasyMQTT Plus.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/widgets/multi_graph_widget_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/widgets/multi_graph_widget_dark.jpg"
                         }
@@ -253,7 +253,7 @@
                 {
                     "id": 0,
                     "title": "Die app verbindet sich nicht mit meinem Broker",
-                    "text": "Überprüfe zuerst ob ein öffentlicher Broker (zB. broker.emqx.io funktioniert). Falls diese Verbindung klappt, überprüfe die Angaben für deinen eigenen broker."
+                    "text": "Teste zuerst einen bekannten öffentlichen Broker wie `broker.emqx.io`, um sicherzugehen, dass EasyMQTT das Netzwerk erreicht. Falls das funktioniert, überprüfe Host, Port, Benutzername/Passwort, MQTT Version und TLS Einstellungen. Die häufigsten Fehler sind ein falscher Port, ein TLS Problem oder eine doppelte Client ID."
                 },
                 {
                     "id": 1,
@@ -275,12 +275,12 @@
                 {
                     "id": 0,
                     "title": "Wo werden Shortcuts konfiguriert?",
-                    "text": "Shortcuts werden in der Shortcuts app erstellt. Dort bekommst du Zugriff auf die verschiedenen Shortcut aktionen von EasyMQTT"
+                    "text": "Shortcuts werden am einfachsten direkt in der Shortcuts App erstellt. Tippe dort auf **+** und suche nach **EasyMQTT**. Du findest Aktionen für **Nachricht senden**, **Favorit senden** und **Nachricht empfangen**."
                 },
                 {
                     "id": 1,
                     "title": "Wieso werden keine Broker angezeigt?",
-                    "text": "Broker müssen zuerst in der App gespeichert werden damit sie dann in den Shortcuts verfügbar werden. Dies kannst du unter Einstellungen > Broker tun."
+                    "text": "Broker werden in Shortcuts nur angezeigt, wenn sie zuerst in der App gespeichert wurden. Speichere den Broker im **Connect** Tab oder unter **Einstellungen > Broker**, dann erscheint er auch in der Shortcuts Auswahl."
                 },
                 {
                     "id": 2,
@@ -290,12 +290,12 @@
                 {
                     "id": 3,
                     "title": "Kann ich JSON payloads senden?",
-                    "text": "Ja! In der Shortcuts app muss dies als normaler Text angegeben werden, aber in der Nachricht wird das als korrektes JSON gesendet."
+                    "text": "Ja. In der Shortcuts App wird die Payload als Text eingegeben, dadurch funktionieren JSON Payloads problemlos. Für komplexere Payloads ist es am einfachsten, den Text in einem vorherigen Shortcut Schritt zusammenzubauen und dann an EasyMQTT zu übergeben."
                 },
                 {
                     "id": 4,
                     "title": "Wieso empfängt mein Shortcut keine Nachrichten?",
-                    "text": "Shortcuts dürfen nur für eine gewisse Zeit im Hintergrund laufen, falls die App nach ein paar Sekunden immer noch keine Nachricht bekommt wird eine Fehlermeldung angezeigt. Für das beste Resultat sollten Nachrichten auf diesem topic als Retained gesendet werden, das heisst dass der Broker automatisch die letzte Nachricht wiederholt wenn der Shortcut gestartet wird."
+                    "text": "Shortcuts dürfen nur für kurze Zeit laufen. Deshalb funktioniert dieser Shortcut am zuverlässigsten mit **Retained** Nachrichten, weil der Broker den letzten Zustand sofort zurückgeben kann."
                 }
             ]
         },
@@ -307,17 +307,17 @@
                 {
                     "id": 0,
                     "title": "Wie funktionieren Widgets?",
-                    "text": "Widgets empfangen Nachrichten von MQTT topics und stellen diese dar. Graph und Multi-graph widgets sammeln Datenpunkte und zeichnen Diagramme auf. Dies kann eine Weile dauern bis genügend Daten vorhanden sind."
+                    "text": "Widgets holen Daten von einem konfigurierten MQTT Topic und zeigen sie in einer kompakten Ansicht an. Nachrichten Widgets zeigen die Payload, Graph und Multi-graph Widgets zeichnen numerische Werte über die Zeit auf."
                 },
                 {
                     "id": 1,
                     "title": "Was ist der Unterschied zwischen Graph und Multi-graph widgets?",
-                    "text": "Graph widgets werden direkt auf dem Home screen konfiguriert. Es kann nur ein topic angegeben werden und es wird nur ein Diagramm angezeigt. Multi graph widgets werden in der app erstellt und können frei konfiguriert werden. Es können verschiedene Datenquellen kombiniert werden, zB. von verschieden topics oder sogar verschiedenen Broker. "
+                    "text": "Graph Widgets zeigen einen einzelnen MQTT Wert über die Zeit und werden direkt am Home Screen konfiguriert. Multi-graph Widgets sind Teil von EasyMQTT Plus, werden in der App erstellt und können mehrere Diagramme in einem Widget kombinieren."
                 },
                 {
                     "id": 2,
                     "title": "Wieso empfängt mein Widget keine Nachrichten>+?",
-                    "text": "Widgets dürfen nur für eine gewisse Zeit im Hintergrund laufen, falls die App nach ein paar Sekunden immer noch keine Nachricht bekommt wird eine Fehlermeldung angezeigt. Für das beste Resultat sollten Nachrichten auf diesem topic als Retained gesendet werden, das heisst dass der Broker automatisch die letzte Nachricht wiederholt wenn das Widget aktualisiert wird."
+                    "text": "Widgets haben nur ein kurzes Hintergrundfenster für Aktualisierungen. Für die beste Zuverlässigkeit sollten Nachrichten auf diesem Topic als **Retained** gesendet werden. Für Graph Widgets muss der ausgewählte Wert ausserdem numerisch sein."
                 },
                 {
                     "id": 3,
@@ -327,7 +327,7 @@
                 {
                     "id": 4,
                     "title": "Wie kann ich live updates aktivieren?",
-                    "text": "Multi graph widgets haben eine Live update option welche aktiviert werden kann. Sobald die App geöffnet wird, werden im Hintergrund direkt die topics des Widgets abonniert und Werte werden live angezeigt."
+                    "text": "Damit Multi-graph Widgets in der App live aktualisiert werden, solltest du dieselben Topics abonnieren, die auch im Widget verwendet werden. Sobald diese aktiv sind, kann EasyMQTT neue Werte direkt übernehmen."
                 }
             ]
         }

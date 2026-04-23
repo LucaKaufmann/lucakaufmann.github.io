@@ -13,35 +13,35 @@
         "supportPages": [{
             "id": 0,
             "title": "Connecting to MQTT brokers",
-            "subtitle": "Connect to any MQTT brokers, whether it's public ones like broker.emqx.io or private ones, brokers using TLS or username/password authentication.",
+            "subtitle": "Connect to public or private brokers with MQTT 3.1.1 or 5.0, raw MQTT or WebSockets, TLS/SSL, and username/password authentication.",
             "imageURL": "https://lucakaufmann.github.io/easymqtt/welcome.png",
             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/welcome.png"
         },
             {
                 "id": 1,
                 "title": "Publish MQTT messages",
-                "subtitle": "Publish messages to MQTT topics and save them to your favorites list.",
+                "subtitle": "Publish MQTT messages with QoS and retain settings, then save repeatable commands to your favorites list.",
                 "imageURL": "https://lucakaufmann.github.io/easymqtt/publish.png",
                 "darkImageURL": "https://lucakaufmann.github.io/easymqtt/publish.png"
             },
             {
                 "id": 2,
                 "title": "Subscribe to MQTT topics",
-                "subtitle": "Subscribe to topics and receive messages, including support for wildcard modifiers like # and +.",
+                "subtitle": "Subscribe to topics and inspect live messages, including wildcard subscriptions like # and +.",
                 "imageURL": "https://lucakaufmann.github.io/easymqtt/subscribe.png",
                 "darkImageURL": "https://lucakaufmann.github.io/easymqtt/subscribe.png"
             },
             {
                 "id": 3,
                 "title": "Create widgets",
-                "subtitle": "Create Graph and MQTT message widgets directly on the homescreen, or create Multi graph widgets to use on the home screen and in the app (requires EasyMQTT plus).",
+                "subtitle": "Create MQTT message, graph, and multi-graph widgets to monitor values on your Home Screen and in the app.",
                 "imageURL": "https://lucakaufmann.github.io/easymqtt/widgets.png",
                 "darkImageURL": "https://lucakaufmann.github.io/easymqtt/widgets.png"
             },
             {
                 "id": 4,
                 "title": "Create Siri Shortcuts",
-                "subtitle": "Create Siri Shortcuts to send and receive MQTT messages and use them in your Shortcuts flows (requires EasyMQTT plus).",
+                "subtitle": "Use EasyMQTT in Shortcuts to send messages, send favorites, and fetch retained state inside your automation flows.",
                 "imageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts.png",
                 "darkImageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts.png"
             }
@@ -55,35 +55,35 @@
             "supportPages": [{
                     "id": 0,
                     "title": "Save multiple Brokers",
-                    "subtitle": "EasyMQTT Plus allows you to save multiple MQTT Brokers to your favorites list to use in the app, in widgets and in Shortcuts.",
+                    "subtitle": "EasyMQTT Plus unlocks multiple saved brokers so you can switch sites quickly and use the right broker in the app, widgets, and Shortcuts.",
                     "imageURL": "https://lucakaufmann.github.io/easymqtt/plus/broker_favorites_light.jpg",
                     "darkImageURL": "https://lucakaufmann.github.io/easymqtt/plus/broker_favorites_dark.jpg"
                 },
                 {
                     "id": 1,
                     "title": "Save MQTT messages",
-                    "subtitle": "Save your most used messages to your list of favorites.",
+                    "subtitle": "Save your most-used MQTT messages as favorites for faster repeat publishes.",
                     "imageURL": "https://lucakaufmann.github.io/easymqtt/plus/publish_favorites_light.jpg",
                     "darkImageURL": "https://lucakaufmann.github.io/easymqtt/plus/publish_favorites_dark.jpg"
                 },
                 {
                     "id": 2,
                     "title": "Subscription favorites",
-                    "subtitle": "Keep a list of topics to subscribe to.",
+                    "subtitle": "Keep a list of go-to topics for faster monitoring and debugging.",
                     "imageURL": "https://lucakaufmann.github.io/easymqtt/plus/subscribe_favorites_light.jpg",
                     "darkImageURL": "https://lucakaufmann.github.io/easymqtt/plus/subscribe_favorites_dark.jpg"
                 },
                 {
                     "id": 3,
                     "title": "Multi-graph widgets",
-                    "subtitle": "Create customizable graph widgets that display multiple graphs in one widget. These widgets update live in the app (if you're subscribed to that topic) and you can add them to your home screen to build your own dashboard.",
+                    "subtitle": "Create customizable widgets with multiple MQTT graphs in one view. Great for building a compact dashboard with live updates in the app.",
                     "imageURL": "https://lucakaufmann.github.io/easymqtt/plus/widgets_light.jpg",
                     "darkImageURL": "https://lucakaufmann.github.io/easymqtt/plus/widgets_dark.jpg"
                 },
                 {
                     "id": 4,
                     "title": "Siri Shortcuts",
-                    "subtitle": "Unlock Siri Shortcuts and create your own Shortcuts workflows. The app includes 3 Shortcuts to send messages and favorite messages and also receive messages from a topic.",
+                    "subtitle": "Unlock EasyMQTT Shortcuts for sending messages, sending favorites, and fetching MQTT state inside Siri and Shortcuts workflows.",
                     "imageURL": "https://lucakaufmann.github.io/easymqtt/plus/shortcuts_light.jpg",
                     "darkImageURL": "https://lucakaufmann.github.io/easymqtt/plus/shortcuts_dark.jpg"
                 }
@@ -104,35 +104,35 @@
                     "supportPages": [{
                         "id": 0,
                         "title": "Connecting to MQTT brokers",
-                        "subtitle": "Connect to any MQTT brokers, whether it's public ones like broker.emqx.io or private ones, brokers using TLS or username/password authentication.",
+                        "subtitle": "Connect to public or private brokers with MQTT 3.1.1 or 5.0, raw MQTT or WebSockets, TLS/SSL, and username/password authentication.",
                         "imageURL": "https://lucakaufmann.github.io/easymqtt/welcome.png",
                         "darkImageURL": "https://lucakaufmann.github.io/easymqtt/welcome.png"
                     },
                         {
                             "id": 1,
                             "title": "Publish MQTT messages",
-                            "subtitle": "Publish messages to MQTT topics and save them to your favorites list.",
+                            "subtitle": "Publish MQTT messages with QoS and retain settings, then save repeatable commands to your favorites list.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/publish.png",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/publish.png"
                         },
                         {
                             "id": 2,
                             "title": "Subscribe to MQTT topics",
-                            "subtitle": "Subscribe to topics and receive messages, including support for wildcard modifiers like # and +.",
+                            "subtitle": "Subscribe to topics and inspect live messages, including wildcard subscriptions like # and +.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/subscribe.png",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/subscribe.png"
                         },
                         {
                             "id": 3,
                             "title": "Create widgets",
-                            "subtitle": "Create Graph and MQTT message widgets directly on the homescreen, or create Multi graph widgets to use on the home screen and in the app (requires EasyMQTT plus).",
+                            "subtitle": "Create MQTT message, graph, and multi-graph widgets to monitor values on your Home Screen and in the app.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/widgets.png",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/widgets.png"
                         },
                         {
                             "id": 4,
                             "title": "Create Siri Shortcuts",
-                            "subtitle": "Create Siri Shortcuts to send and receive MQTT messages and use them in your Shortcuts flows (requires EasyMQTT plus).",
+                            "subtitle": "Use EasyMQTT in Shortcuts to send messages, send favorites, and fetch retained state inside your automation flows.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts.png",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts.png"
                         }
@@ -147,35 +147,35 @@
                     "supportPages": [{
                             "id": 0,
                             "title": "Save multiple Brokers",
-                            "subtitle": "EasyMQTT Plus allows you to save multiple MQTT Brokers to your favorites list to use in the app, in widgets and in Shortcuts.",
+                            "subtitle": "EasyMQTT Plus unlocks multiple saved brokers so you can switch sites quickly and use the right broker in the app, widgets, and Shortcuts.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/plus/broker_favorites_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/plus/broker_favorites_dark.jpg"
                         },
                         {
                             "id": 1,
                             "title": "Save MQTT messages",
-                            "subtitle": "Save your most used messages to your list of favorites.",
+                            "subtitle": "Save your most-used MQTT messages as favorites for faster repeat publishes.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/plus/publish_favorites_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/plus/publish_favorites_dark.jpg"
                         },
                         {
                             "id": 2,
                             "title": "Subscription favorites",
-                            "subtitle": "Keep a list of topics to subscribe to.",
+                            "subtitle": "Keep a list of go-to topics for faster monitoring and debugging.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/plus/subscribe_favorites_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/plus/subscribe_favorites_dark.jpg"
                         },
                         {
                             "id": 3,
                             "title": "Multi-graph widgets",
-                            "subtitle": "Create customizable graph widgets that display multiple graphs in one widget. These widgets update live in the app (if you're subscribed to that topic) and you can add them to your home screen to build your own dashboard.",
+                            "subtitle": "Create customizable widgets with multiple MQTT graphs in one view. Great for building a compact dashboard with live updates in the app.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/plus/widgets_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/plus/widgets_dark.jpg"
                         },
                         {
                             "id": 4,
                             "title": "Siri Shortcuts",
-                            "subtitle": "Unlock Siri Shortcuts and create your own Shortcuts workflows. The app includes 3 Shortcuts to send messages and favorite messages and also receive messages from a topic.",
+                            "subtitle": "Unlock EasyMQTT Shortcuts for sending messages, sending favorites, and fetching MQTT state inside Siri and Shortcuts workflows.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/plus/shortcuts_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/plus/shortcuts_dark.jpg"
                         }
@@ -191,21 +191,21 @@
                         {
                             "id": 0,
                             "title": "Send message shortcut",
-                            "subtitle": "This shortcut allows you to send a message to a selected MQTT Broker. The message is sent as text, but can be formatted as for example JSON.",
+                            "subtitle": "Send a message to a selected MQTT broker. Payloads are entered as text, so JSON works well too.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts/send_message_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts/send_message_dark.jpg"
                         },
                         {
                             "id": 1,
                             "title": "Send favorite shortcut",
-                            "subtitle": "This shortcut allows you to send a message from your saved favorite messages to a selected MQTT Broker. New favorite messages can be created in the app under the **Publish** tab.",
+                            "subtitle": "Send one of your saved favorite messages to a selected MQTT broker. Favorite messages are managed in the app under **Publish**.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts/send_favorite_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts/send_favorite_dark.jpg"
                         },
                         {
                             "id": 2,
                             "title": "Fetch message shortcut",
-                            "subtitle": "This shortcut subscribes to a topic and returns the first message received. There is only about a 10 second time window that the shortcut is allowed to run, so if possible use retained messages to make this more reliable.",
+                            "subtitle": "Subscribe to a topic and return a message value into Shortcuts. Retained messages make this much more reliable because the shortcut only gets a short time window to run.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts/fetch_message_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/shortcuts/fetch_message_dark.jpg"
                         }
@@ -221,21 +221,21 @@
                         {
                             "id": 0,
                             "title": "MQTT widget",
-                            "subtitle": "This widget fetches and displays an MQTT message. It can either display the whole message, or just one specific value by setting the property path. JSON payloads will be highlighted.",
+                            "subtitle": "Fetch and display an MQTT message in a widget. Show the full payload or extract one specific value with a property path.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/widgets/mqtt_widget_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/widgets/mqtt_widget_dark.jpg"
                         },
                         {
                             "id": 1,
                             "title": "Graph widget",
-                            "subtitle": "This widget displays a graph of a value from MQTT messages over time. Using the property path you can pick out a specific value from a sensor, for example the temperature or voltage.",
+                            "subtitle": "Display a graph of a value from MQTT messages over time. Great for sensors like temperature, humidity, voltage, or power.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/widgets/graph_widget_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/widgets/graph_widget_dark.jpg"
                         },
                         {
                             "id": 2,
                             "title": "Multi-graph widget",
-                            "subtitle": "Multi-graph widgets are customizable widgets that can display graphs from multiple topics. They are created and customized in the app and can then be used on the home screen. They feature live updates and customization options like graph color, update interval and more. Multi-graph widgets are part of EasyMQTT Plus.",
+                            "subtitle": "Multi-graph widgets display multiple MQTT graphs in one customizable widget. They are created in the app, can use different topics and brokers, and are part of EasyMQTT Plus.",
                             "imageURL": "https://lucakaufmann.github.io/easymqtt/widgets/multi_graph_widget_light.jpg",
                             "darkImageURL": "https://lucakaufmann.github.io/easymqtt/widgets/multi_graph_widget_dark.jpg"
                         }
@@ -253,7 +253,7 @@
                 {
                     "id": 0,
                     "title": "The app won’t connect to my broker",
-                    "text": "First, try a public broker and see whether the app is able to connect to that (for example broker.emqx.io). If that connection works, check whether the connection details you entered for your own broker are correct. If everything looks good, get in touch!"
+                    "text": "First, try a known-good public broker like `broker.emqx.io` to confirm EasyMQTT can reach the network. If that works, check your host, port, username/password, MQTT version, and TLS settings. Most connection issues come from the wrong port, a TLS mismatch, or a stale client ID."
                 },
                 {
                     "id": 1,
@@ -280,12 +280,12 @@
                 {
                     "id": 0,
                     "title": "How do I configure Shortcuts?",
-                    "text": "You can create Shortcuts either directly from the app using the **Add to Siri** button, or what I would recommend using the Shortcuts app. Press the + button and search for **EasyMQTT**."
+                    "text": "You can create Shortcuts from the app or directly in the Shortcuts app. The easiest route is to press **+** in Shortcuts and search for **EasyMQTT**. You'll find actions for **Send Message**, **Send Favorite**, and **Fetch Message**."
                 },
                 {
                     "id": 1,
                     "title": "Why can't I see any options for brokers?",
-                    "text": "To see your brokers when setting up a Shortcut you first need to create it in the app. Go either to the **Connect** tab or the **Settings** tab to create your broker, hit save and you should be good to go!"
+                    "text": "Shortcuts only show brokers that are already saved in the app. Create or save the broker first from the **Connect** tab or **Settings → Brokers**, then it will appear in the Shortcuts picker."
                 },
                 {
                     "id": 2,
@@ -295,12 +295,12 @@
                 {
                     "id": 3,
                     "title": "Can I send JSON payloads?",
-                    "text": "Yes! Due to the way the Shortcuts app works, the payload has to be entered as text but sending a JSON payload as text should work perfectly fine. For complex payloads I'd recommend using a text editor and then copy the final text over to the shortcut."
+                    "text": "Yes. In Shortcuts, the payload is entered as text, so JSON payloads work well. For more complex payloads, it's easiest to build or format the text in another Shortcut step and pass it into EasyMQTT."
                 },
                 {
                     "id": 4,
                     "title": "Why does my Fetch shortcut not receive anything?",
-                    "text": "Shortcuts have a limited amount of time they're allowed to run, so the Fetch Shortcut currently listens for a new message for up to 10 seconds before completing. Due to that, I'd recommend using that Shortcut with a topic that contains a **retained** message to make things more reliable."
+                    "text": "Shortcuts only get a short time window to run, so the Fetch shortcut listens briefly and then completes. It works best with a topic that already has a **retained** message, because the broker can return the latest state immediately."
                 }
             ]
         },
@@ -312,17 +312,17 @@
                 {
                     "id": 0,
                     "title": "How do widgets work?",
-                    "text": "Widgets receive data over a configured MQTT topic and display the received messages. Graph and Multi-graph widgets let you draw a graph of values over time, for example from messages received form a sensor."
+                    "text": "EasyMQTT widgets fetch data from a configured MQTT topic and display it in a glanceable format. Message widgets show the payload, while graph and multi-graph widgets plot numeric values over time."
                 },
                 {
                     "id": 1,
                     "title": "What's the difference between Graph and Multi-graph widgets?",
-                    "text": "Graph widgets are available to anyone and can be configured on the home screen. Multi-graph widgets are included with EasyMQTT Plus, they support multiple graphs, live updates and can be configured in the app. Additionally, they can also be added to the home screen."
+                    "text": "Graph widgets plot one MQTT value over time and can be configured directly on the Home Screen. Multi-graph widgets are part of EasyMQTT Plus, are created in the app, and can combine multiple graphs in one compact dashboard."
                 },
                 {
                     "id": 2,
                     "title": "Why is my widget not updating/receiving data?",
-                    "text": "Due to background refresh limitations, widgets only get about 10 seconds to receive new messages. It's recommended to use **retained** messages to make updating widgets more reliable. Graph and multi graph widgets need a topic that contains a number value in order to work."
+                    "text": "Widgets only get a short background refresh window, so it's best to use **retained** messages whenever you can. For graph widgets, the selected topic also needs to contain a numeric value that EasyMQTT can plot over time."
                 },
                 {
                     "id": 3,
@@ -332,7 +332,7 @@
                 {
                     "id": 4,
                     "title": "How can I enable live updates of Multi-graph widgets?",
-                    "text": "To update Multi-graph widgets live you need to be subscribed to the topics used in the widget. Once you subscribe you should see the widget update when new values come in. If that doesn't work, try disconnecting and re-connecting to the broker."
+                    "text": "To update multi-graph widgets live inside the app, subscribe to the same topics the widget uses. Once those topics are active, EasyMQTT can update the widget view as new values arrive."
                 }
             ]
         }
