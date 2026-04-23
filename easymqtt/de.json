@@ -264,7 +264,7 @@
                     "id": 2,
                     "title": "Wofür ist die Client ID?",
                     "text": "Der Broker braucht die Client ID um verschiedene clients zu identifizieren. Zwei Geräte mit derselben ID können zu Problemen führen. Um dies zu verhindern kannst du in den Einstellungen eine separate Device ID setzen."
-                },
+                }
             ]
         },
         {
@@ -359,7 +359,7 @@
                     "color": 0
                 }
             ]
-        },
+        }
     ],
     "changelogItems": [
         {
@@ -434,7 +434,7 @@
                     "releaseNote": "Under-the-hood improvements, refactoring app to new architecture"
                 }
             ]
-        },
+        }
     ]
     
 }

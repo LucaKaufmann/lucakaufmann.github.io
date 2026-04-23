@@ -269,7 +269,7 @@
                     "id": 3,
                     "title": "I have some ideas/requests for new features, where can I submit those?",
                     "text": "Feature requests can be discussed on the [Discord server](https://discord.gg/QYwjYEKFCp) or [via email](mailto:contact@easymqtt.app). Scroll down to the Contact section 👇"
-                },
+                }
             ]
         },
         {
@@ -364,7 +364,7 @@
                     "color": 0
                 }
             ]
-        },
+        }
     ],
     "changelogItems": [
         {
